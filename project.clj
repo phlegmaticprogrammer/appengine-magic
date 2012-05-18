@@ -1,4 +1,4 @@
-(defproject appengine-magic "0.5.0"
+(defproject appengine-magic "0.5.0-phlegmaticprogrammer"
   :description "Google App Engine library for Clojure."
   :min-lein-version "1.7.0"
   :repositories {"releases" "http://appengine-magic-mvn.googlecode.com/svn/releases/"
