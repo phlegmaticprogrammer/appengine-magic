@@ -20,12 +20,7 @@
 ;;; ----------------------------------------------------------------------------
 
 (defn default-war-root []
-  (-> (clojure.lang.RT/baseLoader)
-      (.getResource ".")
-      .getFile
-      java.net.URLDecoder/decode
-      (File. "../war")
-      .getAbsolutePath))
+  (-> (File. "war") .getAbsolutePath))
 
 
 (defn appengine-base-url [& {:keys [https?] :or {https? false}}]
